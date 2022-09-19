@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang=en>
+ <head>
+    <meta Charset="UFT-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="idth=device-width, initial-scale=1.0">
+    <title>Felipe Fotos</title>
+    <link rel="stylesheet" href="../css/indexnav.css">
+ </head>
+
+<body>
+    
+        <section class="gpage">
+            <nav class="stroke">
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="./galeria.html">Galeria</a></li>
+                    <li><a href="./trabajos.html">Trabajos</a></li>
+                    <li><a href="./sobremi.html">Sobre mi</a></li>
+                    <li><a href="./contactodidac.html">Contacto</a></li>
+                </ul>
+                
+            </nav>
+            <h1>Contacto</h1>
+        </section>
+       
+
+ <form class="formulario">
+    <fieldset>
+        
+        <div>
+            <label for="nombre-usuario">Nombre y apellido</label>
+            <input type="text" id="nombre-usuario" name="nombre-usuario">
+         </div>    
+        <div>
+            <label for="email-usuario">Correo:</label>
+            <input type="email" id="email-usuario" name="email-usuario">
+        </div>
+        <div>
+            <label for="telefono-usuario">Telefono:</label>
+            <input type="tel" id="telefono-usuario" name="telefono-usuario" pattern="+569[0-9]{3}[0-9]{3} [0-9]{3}"required>
+        </div>
+        <div>
+            
+            ¿Por qué medio quieres que nos contactemos?
+            <div>
+            <label for="contacto-telefono">Telefono</label>
+                <input type="radio" id="contacto-telefono" name="contacto-usuario">
+            </div>
+            <div>
+                <label for="contacto-email">Correo</label>
+                <input type="radio" id="contacto-email" name="contacto-usuario">
+            </div>
+        </div>
+        <div>
+            <label for="mensaje-usuario">Mensaje</label>
+            <div>
+                <textarea cols="30" rows="10" id="mensaje-usuario" name="mensaje-usuario"></textarea>
+            </div>
+        </div>
+        <div>
+            <label for="">¿Te gustaria recivir nueva informacion y descuentos?</label>
+        </div>
+        <input type="checkbox" id="interesado-usuario" name="interesado-usuario"></input>
+        
+        <div>
+            <label for="valoracion-usuario">Encontraste lo que buscabas</label>
+            <select name="valoracion-usuario" id="valoracion-usuario">
+                <option value="valoracion-Si">Si</option>
+                <option value="valoracion-incompleto">Incompleto</option>
+                <option value="valoracion-No">No</option>
+            </select>
+        </div>
+        <input type="submit" value="Enviar!">
+    </fieldset>
+</form>
+    <footer>
+        <p>Felipe Foto &#xae;</p>
+    </footer>
+</body>
+
+</html>

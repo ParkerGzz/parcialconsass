@@ -1,0 +1,10 @@
+@mixin header {
+    background-size:cover;
+    position: relative;
+    
+}
+@mixin padinfo {
+    background-size: cover;
+    padding-top: 140px !important;
+    padding-bottom: 140px !important;
+}

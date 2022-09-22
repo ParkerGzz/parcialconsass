@@ -96,19 +96,25 @@ header {
   padding-top: 140px !important;
   padding-bottom: 140px !important; }
 
-nav {
-  z-index: 100; }
-  nav_navbar-nav {
+div.div2 {
+  background-image: url("../assets/fondoenredadera2.jpg"); }
+
+@media screen and (max-width: 992px) {
+  .navbar-nav {
     background-color: #1b9825;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    padding-left: 20px; }
+    padding-left: 20px;
+    text-align: center; } }
+
+nav {
+  z-index: 100; }
 
 footer {
   background-color: black;
   padding-top: 100px !important;
   padding-bottom: 100px !important; }
-  footer_a {
+  footer a {
     text-decoration: none;
     color: #8cdb0d; }
 

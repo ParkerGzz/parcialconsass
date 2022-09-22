@@ -2,17 +2,16 @@
 
 @media screen and (max-width: 992px){
     
+     &.navbar-nav{
+            background-color: $green1;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;    
+            padding-left: 20px;   
+            text-align: center;
+    
+        }
 }
 
-
 nav{
-    z-index:100;
-
-    &_navbar-nav{
-        background-color: $green1;
-        border-bottom-left-radius: 15px;
-        border-bottom-right-radius: 15px;    
-        padding-left: 20px;   
-
-    }
+    z-index: 100;
 }

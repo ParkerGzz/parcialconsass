@@ -84,3 +84,9 @@ header {
     @include padinfo;
 }
 
+div{
+    &.div2{
+        background-image: url("../assets/fondoenredadera2.jpg");
+
+    }
+}
